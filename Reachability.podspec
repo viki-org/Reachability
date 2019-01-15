@@ -13,16 +13,16 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'Reachability'
-  s.version      = '3.2'
+  s.version      = '3.3'
   s.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.'
 
-  s.homepage     = 'https://github.com/tonymillion/Reachability'
+  s.homepage     = 'https://github.com/viki-org/Reachability'
   s.authors      = { 'Tony Million' => 'tonymillion@gmail.com' }
   s.social_media_url   = "http://twitter.com/tonymillion"
 
   s.license      = { :type => 'BSD', :text => license }
 
-  s.source       = { :git => 'https://github.com/tonymillion/Reachability.git', :tag => "v#{s.version}" }
+  s.source       = { :git => 'https://github.com/viki-org/Reachability.git', :tag => "v#{s.version}" }
   s.source_files = 'Reachability.{h,m}'
   s.framework    = 'SystemConfiguration'
 
